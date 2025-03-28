@@ -1,0 +1,34 @@
+[build]
+  base = "modulify-clone"
+  command = "bun run build"
+  publish = ".next"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_PUBLIC_SUPABASE_URL = "https://tybjzkzhaxsimxvtwyrl.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5Ymp6a3poYXhzaW14dnR3eXJsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI2OTUxNjIsImV4cCI6MjA1ODI3MTE2Mn0.mD_-lNizJ2JLaYhmsKpPZTZEDe8zXMA6HWIbImWPcvE"
+  NEXT_PUBLIC_SITE_URL = "https://www.estate-eminence-ventures.com"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+[images]
+  remote_images = ["https://ext.same-assets.com/.*"]
+
+[[redirects]]
+  from = "https://estate-eminence-ventures.netlify.app/*"
+  to = "https://www.estate-eminence-ventures.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://estate-eminence-ventures.com/*"
+  to = "https://www.estate-eminence-ventures.com/:splat"
+  status = 301
+  force = true

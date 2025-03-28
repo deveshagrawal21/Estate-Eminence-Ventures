@@ -1,0 +1,752 @@
+{
+  "properties": [
+    {
+      "id": "prop-001",
+      "title": "Modern Waterfront Apartment",
+      "address": "123 Marine Drive, Mumbai, Maharashtra 400020",
+      "price": 25000000,
+      "bedrooms": 3,
+      "bathrooms": 3.5,
+      "squareFeet": 2750,
+      "imageUrl": "https://ext.same-assets.com/2675109532/2624546329.jpg",
+      "type": "sale",
+      "featured": true,
+      "tags": [
+        "Waterfront",
+        "Luxury",
+        "Sea View",
+        "Mumbai"
+      ],
+      "category": "residential",
+      "propertySubType": "Apartment",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "neighborhood": "Marine Drive",
+        "pincode": "400020"
+      },
+      "amenities": [
+        "Swimming Pool",
+        "Gym",
+        "24x7 Security",
+        "Power Backup",
+        "Parking"
+      ]
+    },
+    {
+      "id": "prop-002",
+      "title": "Executive Condo in Indiranagar",
+      "address": "456 100 Feet Road, Indiranagar, Bangalore 560038",
+      "price": 15000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1650,
+      "imageUrl": "https://ext.same-assets.com/2675109532/1368969264.jpg",
+      "type": "sale",
+      "tags": [
+        "Condo",
+        "Prime Location",
+        "Security"
+      ],
+      "category": "residential",
+      "propertySubType": "Flat",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "neighborhood": "Indiranagar",
+        "pincode": "560038"
+      },
+      "amenities": [
+        "Club House",
+        "Car Parking",
+        "Children's Play Area",
+        "Gated Community"
+      ]
+    },
+    {
+      "id": "prop-003",
+      "title": "Luxury Golf View Apartment",
+      "address": "789 DLF Golf Course Road, Gurgaon, Haryana 122002",
+      "price": 85000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1450,
+      "imageUrl": "https://ext.same-assets.com/2675109532/3593124142.jpg",
+      "type": "rent",
+      "tags": [
+        "Golf View",
+        "Renovated",
+        "Pet Friendly"
+      ],
+      "category": "residential",
+      "propertySubType": "Apartment",
+      "location": {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "neighborhood": "DLF Golf Course Road",
+        "pincode": "122002"
+      },
+      "amenities": [
+        "Golf Course",
+        "Clubhouse",
+        "Swimming Pool",
+        "Gym",
+        "Tennis Court"
+      ]
+    },
+    {
+      "id": "prop-004",
+      "title": "Heritage Haveli in Jaipur",
+      "address": "1234 Civil Lines, Jaipur, Rajasthan 302006",
+      "price": 42500000,
+      "bedrooms": 5,
+      "bathrooms": 4.5,
+      "squareFeet": 4200,
+      "imageUrl": "https://ext.same-assets.com/2675109532/3192401050.jpg",
+      "type": "sale",
+      "featured": true,
+      "tags": [
+        "Heritage",
+        "Historic",
+        "Garden"
+      ],
+      "category": "residential",
+      "propertySubType": "Haveli",
+      "location": {
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "neighborhood": "Civil Lines",
+        "pincode": "302006"
+      },
+      "amenities": [
+        "Garden",
+        "Courtyard",
+        "Heritage Architecture",
+        "Terrace",
+        "Staff Quarters"
+      ]
+    },
+    {
+      "id": "prop-005",
+      "title": "Modern HSR Layout Apartment",
+      "address": "555 HSR Layout, Bangalore, Karnataka 560102",
+      "price": 45000,
+      "bedrooms": 1,
+      "bathrooms": 1.5,
+      "squareFeet": 1100,
+      "imageUrl": "https://ext.same-assets.com/2675109532/2325675781.jpg",
+      "type": "rent",
+      "tags": [
+        "Modern",
+        "Tech Hub",
+        "Open Concept"
+      ],
+      "category": "residential",
+      "propertySubType": "Studio Apartment",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "neighborhood": "HSR Layout",
+        "pincode": "560102"
+      },
+      "amenities": [
+        "High-Speed Internet",
+        "Gym",
+        "Rooftop Garden",
+        "EV Charging"
+      ]
+    },
+    {
+      "id": "prop-006",
+      "title": "Family Villa in Banjara Hills",
+      "address": "321 Banjara Hills, Hyderabad, Telangana 500034",
+      "price": 32000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFeet": 3100,
+      "imageUrl": "https://ext.same-assets.com/2675109532/3368295814.jpg",
+      "type": "sale",
+      "tags": [
+        "Family",
+        "Yard",
+        "Remodeled"
+      ],
+      "category": "residential",
+      "propertySubType": "Villa",
+      "location": {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "neighborhood": "Banjara Hills",
+        "pincode": "500034"
+      },
+      "amenities": [
+        "Private Pool",
+        "Garden",
+        "Home Theater",
+        "Smart Home",
+        "Solar Panels"
+      ]
+    },
+    {
+      "id": "prop-007",
+      "title": "Cozy South Delhi Apartment",
+      "address": "2222 Greater Kailash, New Delhi 110048",
+      "price": 65000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "squareFeet": 950,
+      "imageUrl": "https://ext.same-assets.com/2675109532/2983204701.jpg",
+      "type": "rent",
+      "tags": [
+        "South Delhi",
+        "Quiet",
+        "Near Park"
+      ],
+      "category": "residential",
+      "propertySubType": "Apartment",
+      "location": {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "neighborhood": "Greater Kailash",
+        "pincode": "110048"
+      },
+      "amenities": [
+        "24x7 Security",
+        "Parking",
+        "Park View",
+        "Modular Kitchen"
+      ]
+    },
+    {
+      "id": "prop-008",
+      "title": "Premium Commercial Space in BKC",
+      "address": "123 Bandra Kurla Complex, Mumbai, Maharashtra 400051",
+      "price": 90000000,
+      "bedrooms": 0,
+      "bathrooms": 4,
+      "squareFeet": 5800,
+      "imageUrl": "https://ext.same-assets.com/2675109532/1502394857.jpg",
+      "type": "sale",
+      "featured": true,
+      "tags": [
+        "Commercial",
+        "Premium",
+        "Corporate"
+      ],
+      "category": "commercial",
+      "propertySubType": "Office Space",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "neighborhood": "Bandra Kurla Complex",
+        "pincode": "400051"
+      },
+      "amenities": [
+        "Meeting Rooms",
+        "Reception Area",
+        "Server Room",
+        "Cafeteria",
+        "Parking"
+      ]
+    },
+    {
+      "id": "prop-009",
+      "title": "Trendy Koramangala Apartment",
+      "address": "777 Koramangala 4th Block, Bangalore 560034",
+      "price": 9500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1200,
+      "imageUrl": "https://ext.same-assets.com/2675109532/1968475013.jpg",
+      "type": "sale",
+      "tags": [
+        "Koramangala",
+        "Hip",
+        "Restaurants"
+      ],
+      "category": "residential",
+      "propertySubType": "Apartment",
+      "location": {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "neighborhood": "Koramangala",
+        "pincode": "560034"
+      },
+      "amenities": [
+        "Gym",
+        "Playground",
+        "Visitor Parking",
+        "Community Hall"
+      ]
+    },
+    {
+      "id": "prop-010",
+      "title": "Hill View Apartment in Powai",
+      "address": "888 Hiranandani Gardens, Powai, Mumbai 400076",
+      "price": 55000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFeet": 1050,
+      "imageUrl": "https://ext.same-assets.com/2675109532/1572983401.jpg",
+      "type": "rent",
+      "tags": [
+        "Lake View",
+        "Modern",
+        "Parking"
+      ],
+      "category": "residential",
+      "propertySubType": "Apartment",
+      "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "neighborhood": "Powai",
+        "pincode": "400076"
+      },
+      "amenities": [
+        "Lake View",
+        "Jogging Track",
+        "Children's Play Area",
+        "Gym"
+      ]
+    },
+    {
+      "id": "prop-011",
+      "title": "Industrial Factory Space in Manesar",
+      "address": "432 HSIIDC Industrial Area, Manesar, Haryana 122051",
+      "price": 21000000,
+      "bedrooms": 0,
+      "bathrooms": 4,
+      "squareFeet": 8500,
+      "imageUrl": "https://ext.same-assets.com/2675109532/2067845910.jpg",
+      "type": "sale",
+      "tags": [
+        "Industrial",
+        "Factory",
+        "Manufacturing"
+      ],
+      "category": "industrial",
+      "propertySubType": "Factory",
+      "location": {
+        "city": "Manesar",
+        "state": "Haryana",
+        "neighborhood": "HSIIDC Industrial Area",
+        "pincode": "122051"
+      },
+      "amenities": [
+        "Loading Dock",
+        "High Power Supply",
+        "Security",
+        "Worker Facilities",
+        "Parking"
+      ]
+    },
+    {
+      "id": "prop-012",
+      "title": "Agricultural Land in Karjat",
+      "address": "1919 Karjat-Murbad Road, Karjat, Maharashtra 410201",
+      "price": 16500000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "squareFeet": 43560,
+      "imageUrl": "https://ext.same-assets.com/2675109532/2357834019.jpg",
+      "type": "sale",
+      "tags": [
+        "Agricultural",
+        "Farmland",
+        "Investment"
+      ],
+      "category": "land",
+      "propertySubType": "Agricultural Land",
+      "location": {
+        "city": "Karjat",
+        "state": "Maharashtra",
+        "neighborhood": "Karjat-Murbad Road",
+        "pincode": "410201"
+      },
+      "amenities": [
+        "Water Source",
+        "Road Access",
+        "Electricity Connection",
+        "Fertile Soil"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "0dd2b4c0-0742-41d1-9b22-eb6053dc0f67",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "neighborhood": "Marine Drive",
+      "pincode": "400020"
+    },
+    {
+      "id": "5f76dad7-4418-413c-871c-4ccb199b2c1a",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "neighborhood": "Indiranagar",
+      "pincode": "560038"
+    },
+    {
+      "id": "16a32c42-3555-402b-962d-4e9c06bcae82",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "neighborhood": "DLF Golf Course Road",
+      "pincode": "122002"
+    },
+    {
+      "id": "1ee1dd07-f0fc-4832-911d-756842ad106a",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "neighborhood": "Civil Lines",
+      "pincode": "302006"
+    },
+    {
+      "id": "59755a45-4af9-4b0e-857b-03995f2bbe0f",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "neighborhood": "Banjara Hills",
+      "pincode": "500034"
+    },
+    {
+      "id": "ac37bc34-3b29-4cb6-bd7d-5250f730bad0",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "neighborhood": "Greater Kailash",
+      "pincode": "110048"
+    },
+    {
+      "id": "a5be9496-6c72-448e-ba50-df866bfd714f",
+      "city": "Manesar",
+      "state": "Haryana",
+      "neighborhood": "HSIIDC Industrial Area",
+      "pincode": "122051"
+    },
+    {
+      "id": "cbeb358d-e867-4d09-a898-d2bfb8bd703c",
+      "city": "Karjat",
+      "state": "Maharashtra",
+      "neighborhood": "Karjat-Murbad Road",
+      "pincode": "410201"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "f09d4b08-a57d-4847-b01a-ec8fce4e9745",
+      "name": "Swimming Pool"
+    },
+    {
+      "id": "d646b512-363a-4536-bae5-358b2c7c87bd",
+      "name": "Gym"
+    },
+    {
+      "id": "c8784dce-189c-44cf-a522-d4a253ac4b48",
+      "name": "24x7 Security"
+    },
+    {
+      "id": "292e3e6e-e939-4ff9-9f89-1f846d4383f7",
+      "name": "Power Backup"
+    },
+    {
+      "id": "17bcb663-314f-4d0d-82dc-b95bdcc3c5f5",
+      "name": "Parking"
+    },
+    {
+      "id": "85e0483a-f275-442d-83b4-85c9377fa9cb",
+      "name": "Club House"
+    },
+    {
+      "id": "9e1762ff-0ee8-4c9c-9861-799340a4aaae",
+      "name": "Car Parking"
+    },
+    {
+      "id": "b3c7e028-23c2-4a4a-87c8-7d5bb1bb93a2",
+      "name": "Children's Play Area"
+    },
+    {
+      "id": "b14465cd-bd70-43ca-a1ad-afc9ccc994ab",
+      "name": "Gated Community"
+    },
+    {
+      "id": "89282cc3-967f-4512-88af-22eae08b6823",
+      "name": "Golf Course"
+    },
+    {
+      "id": "05aa7153-eedc-4cdf-9213-a1c20ecf8d19",
+      "name": "Clubhouse"
+    },
+    {
+      "id": "e722e65e-c37a-434f-b340-764865b5ea0c",
+      "name": "Tennis Court"
+    },
+    {
+      "id": "e044c881-9202-490b-b6ef-719db34c9f6e",
+      "name": "Garden"
+    },
+    {
+      "id": "6d12ec5d-4363-4cc0-b35c-5c9cfa79c0ef",
+      "name": "Courtyard"
+    },
+    {
+      "id": "29a6c687-1b41-4862-8be5-356aeca94eab",
+      "name": "Heritage Architecture"
+    },
+    {
+      "id": "17c3ebde-be96-4197-9485-9b19f9d42c15",
+      "name": "Terrace"
+    },
+    {
+      "id": "140f63b1-3258-4034-9da2-5d91ea510441",
+      "name": "Staff Quarters"
+    },
+    {
+      "id": "b98c69a9-42f0-47ce-8f5f-c932288909e8",
+      "name": "High-Speed Internet"
+    },
+    {
+      "id": "840718cb-ec76-4017-9489-5cb18b6e4106",
+      "name": "Rooftop Garden"
+    },
+    {
+      "id": "81b40313-37b2-40f3-bdcb-e41fb7fedb5f",
+      "name": "EV Charging"
+    },
+    {
+      "id": "61900980-6068-4dc4-9677-ecd9e4f08b76",
+      "name": "Private Pool"
+    },
+    {
+      "id": "ef49d213-ee3a-4560-a2f7-6351d3df5517",
+      "name": "Home Theater"
+    },
+    {
+      "id": "d849f266-245a-41e0-abe4-b1da6041c4b0",
+      "name": "Smart Home"
+    },
+    {
+      "id": "e209f252-613f-4fed-a6ea-a2fabbb6b1b2",
+      "name": "Solar Panels"
+    },
+    {
+      "id": "8a3caaf1-18a8-483b-ac48-71c019d9a719",
+      "name": "Park View"
+    },
+    {
+      "id": "3d6d400f-f993-4606-8b3e-2ef4cf2bd085",
+      "name": "Modular Kitchen"
+    },
+    {
+      "id": "cf6f12db-3993-45b8-9af3-ae21139a5be5",
+      "name": "Meeting Rooms"
+    },
+    {
+      "id": "4a1fa892-c553-4ffd-9278-d9bcc5223516",
+      "name": "Reception Area"
+    },
+    {
+      "id": "e3315f1e-13e2-4af1-ac8f-3aee1101e41e",
+      "name": "Server Room"
+    },
+    {
+      "id": "857e4187-c36f-4980-9fac-3a56b82b0fb8",
+      "name": "Cafeteria"
+    },
+    {
+      "id": "adfd7b6a-96c5-4643-8875-67df73e5f3f3",
+      "name": "Playground"
+    },
+    {
+      "id": "ba331cf4-bbfd-40ec-b96e-9488d85883f8",
+      "name": "Visitor Parking"
+    },
+    {
+      "id": "74ab4cbf-b87c-416a-a0fe-a01bb492ffe0",
+      "name": "Community Hall"
+    },
+    {
+      "id": "401d2d1c-ad60-408e-a423-8562a935d144",
+      "name": "Lake View"
+    },
+    {
+      "id": "151e7009-fb29-4cc7-b327-ca814c8db2aa",
+      "name": "Jogging Track"
+    },
+    {
+      "id": "21305698-43a6-46e1-9d0e-af46abc1cd77",
+      "name": "Loading Dock"
+    },
+    {
+      "id": "4d5b778c-5724-42ef-96dd-a7b317db8907",
+      "name": "High Power Supply"
+    },
+    {
+      "id": "8f6443ff-6c34-4cc4-9c02-cb60bf689b93",
+      "name": "Security"
+    },
+    {
+      "id": "4d39ecd7-7908-450e-9be4-1fefea4c4998",
+      "name": "Worker Facilities"
+    },
+    {
+      "id": "dfacf8b7-f9fe-44b8-98a0-80c826466398",
+      "name": "Water Source"
+    },
+    {
+      "id": "d4094deb-bdeb-4e20-ad47-08870a443214",
+      "name": "Road Access"
+    },
+    {
+      "id": "a7aa1d08-a780-4008-b3fe-a0ca49d34211",
+      "name": "Electricity Connection"
+    },
+    {
+      "id": "a1b2f1c7-e7f4-434e-8134-3a1b9882636e",
+      "name": "Fertile Soil"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7b5281d1-c39a-41a1-86d8-e7fdb3f84956",
+      "name": "Waterfront"
+    },
+    {
+      "id": "9ccd675c-b24d-43a4-845c-754ab64cb8ee",
+      "name": "Luxury"
+    },
+    {
+      "id": "086d948f-5152-4e9e-995e-a65706c1abb4",
+      "name": "Sea View"
+    },
+    {
+      "id": "074260e4-4d99-447b-9e6e-f95b2c218224",
+      "name": "Mumbai"
+    },
+    {
+      "id": "b96c7413-36e1-41d6-a40b-1ec5eaeed2aa",
+      "name": "Condo"
+    },
+    {
+      "id": "5a070857-b14b-4590-b93c-38918ff248e8",
+      "name": "Prime Location"
+    },
+    {
+      "id": "be8aa2bc-0aa8-4255-802c-11145f2a43cd",
+      "name": "Security"
+    },
+    {
+      "id": "b23f1eab-4ad8-42ff-be38-4816a4383bfe",
+      "name": "Golf View"
+    },
+    {
+      "id": "509382c6-c318-466b-aa01-2d8d323e4e73",
+      "name": "Renovated"
+    },
+    {
+      "id": "a1bc3076-5162-4ab7-b5c1-04b247ad38cd",
+      "name": "Pet Friendly"
+    },
+    {
+      "id": "91221079-befe-42e2-8600-0acdfb1a6941",
+      "name": "Heritage"
+    },
+    {
+      "id": "eee3197a-0c86-4570-855a-fcbb59f5f59f",
+      "name": "Historic"
+    },
+    {
+      "id": "22089027-ac64-460e-a18b-be9eae458917",
+      "name": "Garden"
+    },
+    {
+      "id": "231bef58-97ab-47f1-8fcb-d3440a781629",
+      "name": "Modern"
+    },
+    {
+      "id": "53c99e56-b3f6-4fab-a1b9-99e923275f4c",
+      "name": "Tech Hub"
+    },
+    {
+      "id": "e33c6feb-2ed9-4c4e-930c-a4b8ae4bba39",
+      "name": "Open Concept"
+    },
+    {
+      "id": "1994e5b8-2b33-46b0-afdd-1f4df3f58946",
+      "name": "Family"
+    },
+    {
+      "id": "79204b3e-3233-4c23-9627-fff68efd35db",
+      "name": "Yard"
+    },
+    {
+      "id": "d4f4723f-44ad-498d-a0db-9cb289a8f21a",
+      "name": "Remodeled"
+    },
+    {
+      "id": "b03ec61c-d95c-470b-ba4d-3b2f52b04d72",
+      "name": "South Delhi"
+    },
+    {
+      "id": "802117b0-0e87-4e22-be94-385f3bb8c9ce",
+      "name": "Quiet"
+    },
+    {
+      "id": "3a24b04e-9356-4148-9923-e08d086c50b6",
+      "name": "Near Park"
+    },
+    {
+      "id": "3c04e0ef-97ed-4759-8600-6028fb70d9c1",
+      "name": "Commercial"
+    },
+    {
+      "id": "58071874-72ce-40a8-ba08-528d7ed3a419",
+      "name": "Premium"
+    },
+    {
+      "id": "13ee2f6a-6df3-4aa6-98fc-79891beb27f6",
+      "name": "Corporate"
+    },
+    {
+      "id": "fe2be36e-24b4-48f9-bd1c-82dbfd78dc57",
+      "name": "Koramangala"
+    },
+    {
+      "id": "f97c7a4e-1e04-45cf-85af-db96c538dc69",
+      "name": "Hip"
+    },
+    {
+      "id": "1d79481d-6ac3-41a4-a86d-70d16e79105a",
+      "name": "Restaurants"
+    },
+    {
+      "id": "5367177c-ca4e-49b4-93aa-1f0a85b5ee71",
+      "name": "Lake View"
+    },
+    {
+      "id": "7733129b-18b7-4b2e-8273-15a0a1d8a005",
+      "name": "Parking"
+    },
+    {
+      "id": "d8347f7c-fcad-425b-8cba-7a8fcbba7366",
+      "name": "Industrial"
+    },
+    {
+      "id": "a5058d28-b1a7-40dc-8c91-fcd09050ef58",
+      "name": "Factory"
+    },
+    {
+      "id": "54e9c066-d526-4d5d-beeb-c994803dbe6e",
+      "name": "Manufacturing"
+    },
+    {
+      "id": "515690f5-f829-4d0e-8b11-f555e984d8cd",
+      "name": "Agricultural"
+    },
+    {
+      "id": "376af8b0-8cc7-484b-af73-9469d7f30ac7",
+      "name": "Farmland"
+    },
+    {
+      "id": "7c95efaa-8eb6-467d-a53b-25f150764c3f",
+      "name": "Investment"
+    }
+  ]
+}
